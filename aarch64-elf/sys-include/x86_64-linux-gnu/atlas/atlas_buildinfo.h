@@ -1,0 +1,31 @@
+#ifndef ATL_INSTINFO_H
+   #define ATL_INSTINFO_H
+
+#define ATL_ARCH "x86SSE264SSE2"
+#define ATL_INSTFLAGS "-1 0 -a 1 -l 1"
+#define ATL_F2CDEFS "-DAdd_ -DF77_INTEGER=int -DStringSunStyle"
+#define ATL_ARCHDEFS "-DATL_OS_Linux -DATL_ARCH_x86SSE2 -DATL_CPUMHZ=2095 -DATL_SSE2 -DATL_SSE1 -DATL_USE64BITS -DATL_GAS_x8664"
+#define ATL_DKCFLAGS "-Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -fdebug-prefix-map=/build/atlas-mGOM49/atlas-3.10.3=. -fstack-protector-strong -m64 -fPIC"
+#define ATL_DKC "/usr/bin/gcc"
+#define ATL_SKCFLAGS "-Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -fdebug-prefix-map=/build/atlas-mGOM49/atlas-3.10.3=. -fstack-protector-strong -m64 -fPIC"
+#define ATL_SKC "/usr/bin/gcc"
+#define ATL_DMCFLAGS "-Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -fdebug-prefix-map=/build/atlas-mGOM49/atlas-3.10.3=. -fstack-protector-strong -m64 -fPIC"
+#define ATL_DMC "/usr/bin/gcc"
+#define ATL_SMCFLAGS "-Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -fdebug-prefix-map=/build/atlas-mGOM49/atlas-3.10.3=. -fstack-protector-strong -m64 -fPIC"
+#define ATL_SMC "/usr/bin/gcc"
+#define ATL_ICCFLAGS "-DL2SIZE=33554432 -I/build/atlas-mGOM49/atlas-3.10.3/build/include -I/build/atlas-mGOM49/atlas-3.10.3/build/..//include -I/build/atlas-mGOM49/atlas-3.10.3/build/..//include/contrib -DAdd_ -DF77_INTEGER=int -DStringSunStyle -DATL_OS_Linux -DATL_ARCH_x86SSE2 -DATL_CPUMHZ=2095 -DATL_SSE2 -DATL_SSE1 -DATL_USE64BITS -DATL_GAS_x8664 -m64 -DATL_DYLIBS -DWALL -Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -fdebug-prefix-map=/build/atlas-mGOM49/atlas-3.10.3=. -fstack-protector-strong -m64 -fPIC"
+#define ATL_ICC "/usr/bin/gcc"
+#define ATL_F77FLAGS "-g -O2 -fdebug-prefix-map=/build/atlas-mGOM49/atlas-3.10.3=. -fstack-protector-strong -m64 -fPIC"
+#define ATL_F77 "/usr/bin/gfortran"
+#define ATL_DKCVERS "gcc (Ubuntu 9.3.0-8ubuntu1) 9.3.0"
+#define ATL_SKCVERS "gcc (Ubuntu 9.3.0-8ubuntu1) 9.3.0"
+#define ATL_DMCVERS "gcc (Ubuntu 9.3.0-8ubuntu1) 9.3.0"
+#define ATL_SMCVERS "gcc (Ubuntu 9.3.0-8ubuntu1) 9.3.0"
+#define ATL_ICCVERS "gcc (Ubuntu 9.3.0-8ubuntu1) 9.3.0"
+#define ATL_F77VERS "GNU Fortran (Ubuntu 9.3.0-8ubuntu1) 9.3.0"
+#define ATL_SYSINFO "Linux lgw01-amd64-035 4.4.0-176-generic #206-Ubuntu SMP Fri Feb 28 05:02:04 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux"
+#define ATL_DATE    "Thu Mar 26 11:57:29 UTC 2020"
+#define ATL_UNAM    "buildd"
+#define ATL_VERS    "3.10.3"
+
+#endif
